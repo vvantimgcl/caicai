@@ -1,0 +1,83 @@
+/* Required for full background image */
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #141314 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #2555d8 !important;
+  }
+}
+
+.rgba-gradient {
+    /* fallback for old browsers */
+    background: rgba(28, 28, 29, 0.6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(243, 240, 240, 0.6), rgba(236, 231, 231, 0.6));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(17, 17, 17, 0.6), rgba(5, 5, 5, 0.6));
+}
+
+.demo{text-align: center;
+
+  margin-top: 100px;}
+
+@-webkit-keyframes rotation{
+
+  from {-webkit-transform: rotate(0deg);}
+
+  to {-webkit-transform: rotate(360deg);}
+
+}
+
+.an{
+
+  -webkit-transform: rotate(360deg);
+
+  animation: rotation 3s linear infinite;
+
+  -moz-animation: rotation 3s linear infinite;
+
+  -webkit-animation: rotation 3s linear infinite;
+
+  -o-animation: rotation 3s linear infinite;
+
+}
+
+.img{border-radius: 250px;}
+
+
+
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.video-bg video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}

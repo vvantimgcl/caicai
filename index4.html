@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>MDB4.12模板</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/audio.css">
+  <link rel="stylesheet" href="css/audioplayer.css">
+  <link rel="stylesheet" href="css/zplayer.min.css">
+</head>
+
+<body>
+<!-- start your project here -->
+<!-- Main navigation -->
+
+  
+<!--Main layout-->
+<main>
+
+<!--Section: about-->
+
+    <!--Section: projects-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="background-color: black;">
+      <img src="img/back.png" width="20" onclick=t(0) alt="user" >
+      
+      <div class="container">
+        <a class="navbar-brand" href="#" name="top" style="position: relative;left: 48%;">Video</a>
+      </div>
+      </nav>
+    <!--Section: gallery-->
+    <section id="gallery" class="text-center py-5" style="background-color:black;width: auto; height: 750px;">
+  
+      <!-- Container -->
+     
+
+        <div class="video-bg">
+          <video playsinline="" autoplay="" muted="" loop="" class="myVideo desktop-video show-for-medium">
+            <source class="desktop-video" src="//progressive-cdn.ustudio.com/ustudio/app/transcodes/Tn8tZwg6TVTI.webm" type="video/webm">
+            <source class="desktop-video" src="//progressive-cdn.ustudio.com/ustudio/app/transcodes/TzWm4ETUIMeR.mp4" type="video/mp4">
+          </video>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+<div style="position:sticky; z-index:999; top:0; ">
+<img src="img/sp.png" onclick=t(5) alt="user" >
+</div>
+      
+
+      <!-- Container -->
+  
+    </section>
+    <!--Section: gallery-->
+  
+   
+  
+    
+  
+  
+  
+    </section>
+    <!--Section: call to action-->
+  
+
+  
+    <!--Section: contact-->
+    <section id="contact" class="py-1" style="background-color: rgb(12, 11, 11);">
+  
+      
+  
+    </section>
+    <!--Section: contact-->
+  
+  </main>
+  <!--Main layout-->
+
+<!--Footer-->
+
+  <!-- Footer -->
+<!--Footer-->
+<!-- end your project here -->
+<script type="text/javascript" src="js/audio.js"></script>
+    <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="http://mediaplayer.yahoo.com/js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript">
+    // MDB Lightbox Init
+    $(function () {
+      $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+    });
+    // 以下为动画效果新添加的两条语句
+    // Adding animations to the sections, 使用的是淡入, 你也可以试试zoomIn等动画
+    $("section").addClass("wow fadeIn");
+    // Animations Init, 注意必须放在ready方法中以防WOW对象没能加载成功
+    $(document).ready(function () {
+      new WOW().init();
+    });
+  </script>
+<!-- music -->
+<script>
+   function a(){
+     var audio = document.getElementById('amusic'); 
+    
+     if(audio.paused){     
+                    
+         audio.play();//audio.play();// 播放  
+         
+     }
+     else{
+        audio.pause();
+        audio.currentTime = 0;//音乐从头播放
+     } 
+   }
+  </script>
+<script>
+  function b(){
+    var audio = document.getElementById('bmusic');
+    if(audio.paused){                 
+        audio.play();//audio.play();// 播放  
+        
+    }
+    else{
+       audio.pause();
+       audio.currentTime = 0;//音乐从头播放
+    } 
+  }
+ </script>
+ <script>
+  function c(){
+    var audio = document.getElementById('cmusic');
+    if(audio.paused){                 
+        audio.play();//audio.play();// 播放  
+        
+    }
+    else{
+       audio.pause();
+       audio.currentTime = 0;//音乐从头播放
+    } 
+  }
+ </script>
+ <script>
+  function d(){
+    var audio = document.getElementById('dmusic');
+    if(audio.paused){                 
+        audio.play();//audio.play();// 播放  
+        
+    }
+    else{
+       audio.pause();
+       audio.currentTime = 0;//音乐从头播放
+    } 
+  }
+ </script>
+  <script>
+    function t(id){
+      if(id==5)
+      {
+        window.location.href="https://music.163.com/#/video?id=9C99CAD7498C21D3E2212B5B7FC096C2";
+      }
+      if(id==1)
+      {
+      window.location.href="index2.html";
+      }
+      if(id==2)
+      {
+        window.location.href="index3.html";
+      }
+      if(id==3)
+      {
+        window.location.href="index4.html";
+      }
+      if(id==4)
+      {
+        window.location.href="index5.html";
+      }
+      if(id==0)
+      {
+        window.location.href="index.html";
+      }
+    }
+   </script>
+    <script src="js/audioplayer.js"></script>
+    <script src="js/audio-player.js"></script>
+
+ <!-- 1111 -->
+</body>
+
+</html>
